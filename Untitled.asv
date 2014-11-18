@@ -1,0 +1,10 @@
+
+% for i = 2:8
+  val = 3;
+  vald = 45;
+    Spath = 'H:\experiment\data_sam\New folder2\' ;
+    Sval = sprintf('%s%d.txt',Spath,val);
+    Dpath = 'H:\experiment\data_sam\chucai\' ;
+    Dval = sprintf('%s%d.txt',Dpath,vald);
+FileRename(Sval,Dval)
+% end
